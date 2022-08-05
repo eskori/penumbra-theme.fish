@@ -3,7 +3,7 @@ function penumbra_load_theme
 
     switch $penumbra_variant
         case dark
-            source $penumbra_path/conf.d/penumbra-dark.fish && enable_penumbra_theme_dark
+            source $penumbra_path/conf.d/penumbra-dark.fish && _enable_penumbra_theme_dark
             and colorize "penumbra %s dark %s enabled!\n"
         case '*'
             echo 'Invalid variant!'
@@ -32,7 +32,7 @@ end
 
 function _penumbra_install --on-event penumbra_install
     _penumbra_save_current_theme
-    and echo 'Previous theme saved! 🎉'
+    and echo 'Previous theme saved!'
 end
 
 function _penumbra_uninstall --on-event penumbra_uninstall
