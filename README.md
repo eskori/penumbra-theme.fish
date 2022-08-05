@@ -1,0 +1,1 @@
+This is a [penumbra](https://github.com/nealmckee/penumbra) color scheme for Fish shell
