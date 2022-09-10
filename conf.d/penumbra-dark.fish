@@ -1,4 +1,4 @@
-function enable_ayu_theme_dark
+function enable_penumbra_theme_dark
     # penumbra uses 8 colour palettes
     set --universal fish_color_autosuggestion BEBEBE # penumbra:sky+            autosuggestions
     set --universal fish_color_command        5794D0 # penumbra:blue            commands
