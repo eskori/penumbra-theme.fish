@@ -1,5 +1,5 @@
 function enable_penumbra_theme_dark
-    set --universal fish_color_autosuggestion BEBEBE # penumbra:sky+            autosuggestions
+    set --universal fish_color_autosuggestion 909090 # penumbra:sky-            autosuggestions
     set --universal fish_color_command        5794D0 # penumbra:blue            commands
     set --universal fish_color_comment        636363 # penumbra:sky-            code comments
     set --universal fish_color_cwd            5794D0 # penumbra:blue            current working directory in the default prompt
