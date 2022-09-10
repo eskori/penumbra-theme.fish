@@ -6,4 +6,4 @@ This is the first time I create a theme or anything fish-related. Bugs are expec
 ## Instalattion
 1. Install [fisher](https://github.com/jorgebucaran/fisher) if you don't have it already.
 2. Run `fisher install eskori/penumbra-theme.fish`
-3. Apply running `set --universal ayu_variant light && ayu_load_theme`
+3. Apply running `set --universal penumbra_variant light && penumbra_load_theme`
