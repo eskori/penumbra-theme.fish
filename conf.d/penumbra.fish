@@ -3,7 +3,7 @@ function penumbra_load_theme
 
     switch $penumbra_variant
         case dark
-            source $penumbra_path/conf.d/penumbra-dark.fish && _enable_penumbra_theme_dark
+            source $penumbra_path/conf.d/penumbra-dark.fish && enable_penumbra_theme_dark
             and colorize "penumbra %s dark %s enabled!\n"
         case '*'
             echo 'Invalid variant!'
